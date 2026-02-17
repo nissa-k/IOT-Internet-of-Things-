@@ -1,5 +1,5 @@
 ## IoT Smart Farm – Système de Supervision avec ESP32
-# Présentation
+## Présentation
 
 Ce projet consiste en la conception et la mise en œuvre d’un prototype de ferme connectée reposant sur des microcontrôleurs ESP32 et des capteurs environnementaux.
 L’objectif était de concevoir une architecture IoT complète permettant de :
@@ -25,19 +25,19 @@ Stockage des données
 Grafana (Dashboards)
 
 ## Technologies utilisées
-# Systèmes embarqués
+## Systèmes embarqués
  - ESP32
  - MicroPython
 
-# Communication
+## Communication
  - Protocole MQTT
  - Broker Mosquitto
 
-# Backend et traitement
+## Backend et traitement
  - Node.js
  - Node-RED
 
-# Visualisation
+## Visualisation
  - Grafana
    
 ## Fonctionnement
