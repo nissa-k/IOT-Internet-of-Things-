@@ -1,4 +1,4 @@
-##IoT Smart Farm – Système de Supervision avec ESP32
+## IoT Smart Farm – Système de Supervision avec ESP32
 #Présentation
 
 Ce projet consiste en la conception et la mise en œuvre d’un prototype de ferme connectée reposant sur des microcontrôleurs ESP32 et des capteurs environnementaux.
