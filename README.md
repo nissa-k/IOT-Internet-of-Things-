@@ -52,9 +52,11 @@ Les données sont envoyées vers la couche de stockage.
 Grafana affiche les métriques en temps réel via des tableaux de bord.
 
 ## Exemple de logique embarquée
+```python
 if humidity > seuil:
     afficher_message("Humidité élevée détectée")
     publier_mqtt("ferme/humidite", humidity)
+```
 
 ## Compétences mises en œuvre
 
