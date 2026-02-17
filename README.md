@@ -1,5 +1,5 @@
 ## IoT Smart Farm – Système de Supervision avec ESP32
-#Présentation
+# Présentation
 
 Ce projet consiste en la conception et la mise en œuvre d’un prototype de ferme connectée reposant sur des microcontrôleurs ESP32 et des capteurs environnementaux.
 L’objectif était de concevoir une architecture IoT complète permettant de :
@@ -25,22 +25,22 @@ Stockage des données
 Grafana (Dashboards)
 
 ## Technologies utilisées
-#Systèmes embarqués
+# Systèmes embarqués
  - ESP32
  - MicroPython
 
-#Communication
+# Communication
  - Protocole MQTT
  - Broker Mosquitto
 
-#Backend et traitement
+# Backend et traitement
  - Node.js
  - Node-RED
 
-#Visualisation
+# Visualisation
  - Grafana
    
-##Fonctionnement
+## Fonctionnement
 
 L’ESP32 lit les données d’humidité via le capteur.
 Une condition est évaluée directement sur le microcontrôleur.
@@ -56,7 +56,7 @@ if humidity > seuil:
     afficher_message("Humidité élevée détectée")
     publier_mqtt("ferme/humidite", humidity)
 
-##Compétences mises en œuvre
+## Compétences mises en œuvre
 
  - Programmation embarquée en MicroPython
  - Intégration de capteurs avec ESP32
@@ -72,11 +72,6 @@ if humidity > seuil:
  - Sensibilisation aux risques d’exposition des objets connectés
  - Compréhension des problématiques d’authentification et de sécurisation des communications
 
-##Auteur
+## Auteur
 Karadag 
 Nissa
-De la gestion de flux de données en temps réel
-
-Des outils de supervision
-
-Des enjeux de sécurité liés aux environnements IoT
